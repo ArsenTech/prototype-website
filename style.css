@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: Arial;
+	text-decoration: none;
+}
+body{
+	background: #22b455;
+}
+header{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	background: #22b455;
+}
+#text{
+	display: flex;
+	align-items: center;
+}
+#logo img{
+	border-radius: 100%;
+}
+main{
+	background: #92e5a1;
+}
+h2, h4{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
+p{
+	text-align: center;
+	color: black;
+}
+.links{
+	text-align: center;
+}
+.links a{
+	color: black;
+	display: block;
+	font-size: 55px;
+}
+.links a:hover{color: #22b455;}
+.yt:hover{color: red;}
+.git:hover{color: black;}
+.dis:hover{color: #5539cc;}
+footer{
+	background: #22b455;
+	text-align: center;
+	margin: 20px 0;
+}
+.copyright{
+	font-size: 30px;
+}
+.copyright p{color: white;}
+#link{
+	margin: 50px;
+}
+#link a{
+	margin: 15px;
+	font-size: 30px;
+}
+#link a:hover{color: #92e5a1;}
