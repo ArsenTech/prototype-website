@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Sora', Arial;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+img{
+    width: 100%;
+}
+/* header */
+#site-header{
+    background: #204829;
+    box-shadow: -3px 3px 3px green;
+    padding: 5px;
+}
+.top-logo{
+    width: 150px;
+    height: 150px;
+    background: url(../Files/ArsenTech\ Channel\ Logo.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.top-logo:hover{
+    width: 150px;
+    height: 150px;
+    background: url(../Files/Spin.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav{
+    display: flex;
+}    
+.top-nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #22b455;
+    font-size: 20px;
+    transition: all .5s ease;
+    border-right: 2px solid #22b455;
+    padding-right: 15px;
+}
+.top-nav a:hover{
+    color: #92e5a1;
+}
+.nav-home{
+    color: #ff6b6b;
+}
+.nav-portfolio{
+    color: #feca57;
+}
+.nav-about{
+    color: #0abde3;
+}
+.nav-contact{
+    color: #1dd1a1;
+}
+.nav-gallery{
+    color: #5f27cd;
+}
+.menu-btn{
+    float: right;
+    color: #22b455;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+/* main*/
+.main-title{
+    height: 400px;
+    background: linear-gradient(#204829, #1dd1a1);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-title .content, .content-title{
+    width: 100%;
+    color: white;
+}
+.main-title .content h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.main-title .content h1::after{
+    content: "ArsenTech";
+    animation: txt 5s linear infinite;
+}
+
+@keyframes txt{
+    25%{
+        content: "a Developer";
+    }
+    50%{
+        content: "a Tech Youtuber";
+    }
+    75%{
+        content: "a Photographer";
+    }
+}
+
+#link a{
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.yt, .git, .server{
+    transition: 0.5s linear;
+}
+.yt:hover{color: red;}
+.git:hover{color: black;}
+.server:hover{color: #7289DA;}
+.con-gallery{
+    width: 500px;
+    padding: 15px;
+}
+.gallery-top img{
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+.gallery-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-small{
+    width: 150px;
+    height: 100px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.con-info{
+	width: 500px;
+	height: 300px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.info-button button{
+    width: 110px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+	background-color: #204829;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.info-text{
+    text-align: justify;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.dark{
+    background-color: #353b48;
+}
+.dark .services-title, .works-title{
+    color: white;
+    text-align: center;
+    margin: 5px 0;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service{
+    width: calc(33% - 20px);
+    text-align: center;
+    border: 1px solid #1dd1a1;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 40px 20px;
+    color: #22b455;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.service .icon{
+    color: #22b455;
+    font-size: 45px;
+    margin-bottom: 20px;
+    transition: 0.5s linear;
+}
+.service h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.service:hover{
+    background-color: #22b455;
+    color: white;
+}
+.service:hover .icon{
+    color: white;
+}
+/* Footer */
+#site-footer{
+    background: linear-gradient(#204829, #22b455);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.copyright{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.copyright a{
+    font-size: 16px;
+    color: #1dd1a1;
+    font-weight: 500;
+}
+/*--------------------------------------*/
+/* ScrollBar */
+::-webkit-scrollbar{
+    width: 25px;
+    background: #333;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #353b48;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, #22b455, #1dd1a1);
+}
+/* Contact */
+.cont-info{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
+    padding: 20px 10px;
+}
+.cont-info .item{
+    width: calc(33% - 20px);
+    height: 200px;
+    background: #353b48;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s linear;
+} 
+.cont-info .item a{
+    color: white;
+}
+.cont-info .item i{
+    display: block;
+    font-size: 50px;
+    line-height: 150px;
+}
+.cont-info .item:hover{
+    background: #22b455;
+}
+/* About */
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+}
+.about-section{
+    background: url(../Files/Desktop.JPG) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.about-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+.about-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.about-skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* Gallery */
+.gallery-section{
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1;
+}
+.gallery-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.gallery .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.gallery, .works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery .image:hover img{
+    transform: scale(1.5) rotate(15deg);
+}
+.gallery-section h1, .gallery h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+.border{
+    width: 180px;
+    height: 5px;
+    background: #333;
+    margin: 60px auto;
+}
+/* Card */
+.profile-card{
+    width: 600px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.profile-title{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.profile-tag{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+.profile-about{
+    text-align: justify;
+}
+.profile-link{
+    margin: 0;
+    padding: 0;
+}
+.profile-link li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.profile-link li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: 0.5s all ease-in-out;
+}
+.profile-link li a:hover{
+    color: #b9b9b9;
+}
+/* Skills */
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.skill-name{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 28px;
+    background: #cacaca;
+    border-radius: 8px;
+}
+.skill-per{
+    height: 28px;
+    background: #22b455;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px;
+    background: #353b48;
+    color: #1dd1a1;
+    font-size: 15px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #353b48;
+    border-radius: 2px;
+    top: -14px;
+    right: 0;
+    transform: translateX(50%) rotate(40deg);
+}
+/* works */
+.work{
+    width: calc(33% - 10px);
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+}
+.work img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s linear;
+}
+.work::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #22b45580;
+    transition: 0.4s linear;
+    opacity: 0;
+    transform: scale(0);
+}
+.work .info{
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+.work:hover img{
+    transform: scale(1.6) rotate(25deg);
+}
+.work:hover::before, .work:hover .info{
+    opacity: 1;
+    transform: scale(1);
+}
+/* error 404 */
+
+/*--------------------------------------*/
+@media screen and (max-width: 800px){
+    .menu-btn{
+        display: block !important;
+    }
+    .top-nav{
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        background: #2c6439;
+        top: 160px;
+        right: 0;
+        display: none;
+        padding: 30px 50px;
+    }
+    .top-nav::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #2c6439;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+    }
+    .top-nav a{
+        display: block;
+        margin: 10px 0;
+    }
+    .top-nav.active{
+        display: block;
+    }
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .service{
+        width: calc(50% - 20px);
+    }
+    .cont-info .item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .about-container{
+        width: 100%;
+    }
+    .gallery .image{
+        flex: 33.33%;
+    }
+    .work{
+        width: calc(50% - 10px);
+    }
+}
+@media screen and (max-width: 600px){
+    .service{
+        width: 100%;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .about-section{
+        padding: 0;
+    }
+    .about-container{
+        padding: 60px;
+    }
+    .gallery .image{
+        flex: 100%;
+    }
+    .work{
+        width: 100%;
+    }
+}
