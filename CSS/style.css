@@ -576,4 +576,7 @@ img{
     .work{
         width: 100%;
     }
+    .skills{
+        width: 325px;
+    }
 }
