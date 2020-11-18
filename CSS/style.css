@@ -545,8 +545,9 @@ img{
     }
 }
 @media screen and (max-width: 600px){
-    .con-gallery{
-        width: 300px
+    .gallery-top{
+        width: 320px;
+        height: 220px;
     }
     .service{
         width: 100%;
