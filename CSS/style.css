@@ -576,7 +576,7 @@ img{
     .work{
         width: 100%;
     }
-    .skills{
+    .skills, .con-gallery{
         width: 325px;
     }
 }
