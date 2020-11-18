@@ -102,7 +102,6 @@ img{
     content: "ArsenTech";
     animation: txt 5s linear infinite;
 }
-
 @keyframes txt{
     25%{
         content: "a Developer";
@@ -114,7 +113,6 @@ img{
         content: "a Photographer";
     }
 }
-
 #link a{
     color: white;
     font-size: 25px;
@@ -160,10 +158,10 @@ img{
     height: 30px;
     margin-left: 20px;
     border: none;
-	background-color: #204829;
-	color: #fff;
-	border-radius: 10px;
-	cursor: pointer;
+    background-color: #204829;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .info-text{
     text-align: justify;
@@ -352,7 +350,7 @@ img{
 }
 /* Card */
 .profile-card{
-    width: 400px;
+    width: 500px;
     background: rgba(0,0,0,0.5);
     padding: 40px;
     text-align: center;
@@ -553,7 +551,6 @@ img{
         width: 320px;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
      }
     .con-info{
         width: 300px;
@@ -579,4 +576,7 @@ img{
     .skills, .profile-card, .con-gallery{
         width: 325px;
     }
+    .info-button button{
+	margin: 0 auto;
+    }    
 }
