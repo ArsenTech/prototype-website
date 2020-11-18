@@ -552,9 +552,9 @@ img{
         width: 320px;
         height: 220px;
     }
-    .bottom-small{
-        width: 100px;
-        height: 50px;
+    .gallery-bottom{
+        width: 320px;
+        display: flex;
     }
     .service{
         width: 100%;
