@@ -544,7 +544,7 @@ img{
         width: calc(50% - 10px);
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 350px){
     .gallery-top{
         width: 320px;
         height: 220px;
