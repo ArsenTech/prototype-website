@@ -548,6 +548,10 @@ img{
     .con-info{
         width: 300px;
     }
+    .bottom-small{
+        width: 100px;
+        height: 50px;
+    }
     .gallery-top{
         width: 320px;
         height: 220px;
