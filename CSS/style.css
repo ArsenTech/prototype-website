@@ -549,6 +549,10 @@ img{
         width: 320px;
         height: 220px;
     }
+    .gallery-bottom{
+        width: 320px;
+        display: flex;
+     }
     .con-info{
         width: 300px;
     }
