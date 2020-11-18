@@ -552,6 +552,8 @@ img{
     .gallery-bottom{
         width: 320px;
         display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
      }
     .con-info{
         width: 300px;
