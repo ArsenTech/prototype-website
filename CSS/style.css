@@ -576,7 +576,7 @@ img{
     .work{
         width: 100%;
     }
-    .skills, .profile-card{
+    .skills, .profile-card, .con-gallery{
         width: 325px;
     }
 }
