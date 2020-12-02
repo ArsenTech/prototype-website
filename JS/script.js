@@ -19,3 +19,16 @@ $(".skill-per").each(function(){
         }
     });
 });
+
+// protection
+$(document).ready(function () {
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+});
