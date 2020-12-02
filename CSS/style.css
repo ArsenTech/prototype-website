@@ -9,13 +9,6 @@ body{
     font-family: 'Sora', Arial;
 }
 /*/////////////////////*/
-/* NoScript */
-noscript{
-  text-align: center;
-}
-noscript h1{
-  color: #dc3545;
-}
 /* Highlight Selection */
 ::selection {
   color: #020204;
