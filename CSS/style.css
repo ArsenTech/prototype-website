@@ -8,6 +8,11 @@
 body{
     font-family: 'Sora', Arial;
 }
+/* Highlight Selection */
+::selection {
+  color: #020204;
+  background-color: #92e5a1;
+}
 .container{
     margin: 0 auto;
     max-width: 1080px;
@@ -266,11 +271,6 @@ img{
 }
 .cont-info .item:hover{
     background: #22b455;
-}
-/* Highlight Selection */
-::selection {
-  color: #020204;
-  background-color: #92e5a1;
 }
 /* About */
 .about{
