@@ -8,11 +8,20 @@
 body{
     font-family: 'Sora', Arial;
 }
+/*/////////////////////*/
+/* NoScript */
+noscript{
+  text-align: center;
+}
+noscript h1{
+  color: #dc3545;
+}
 /* Highlight Selection */
 ::selection {
   color: #020204;
   background-color: #92e5a1;
 }
+/*////////////////////*/
 .container{
     margin: 0 auto;
     max-width: 1080px;
