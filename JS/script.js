@@ -31,10 +31,4 @@ $(document).ready(function () {
     $('body').bind('cut copy paste', function (e) {
         e.preventDefault();
     });
-    $.fn.disableTextSelection = function() {
-        return this
-        .attr('unselectable', 'on')
-        .css('user-select', 'none')
-        .on('selectstart dragstart', false);
-    };
 });
