@@ -125,7 +125,7 @@ img{
     font-size: 25px;
     margin: 0 10px;
 }
-.yt, .git, .server{
+.yt, .git{
     transition: 0.5s linear;
 }
 .yt:hover{color: red;}
@@ -518,7 +518,7 @@ img{
 	text-decoration: none;
 	background: #22b455;
 	color: whitesmoke;
-	margin-top: 20px;
+	margin-bottom: -30px;
 	padding: 12px 24px;
 	border-radius: 25px;
 	font-size: 14px;
