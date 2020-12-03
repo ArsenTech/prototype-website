@@ -197,6 +197,7 @@ img{
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.5s linear;
 }
 .info-button button:hover{
     background-color: #22b455;
