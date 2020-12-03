@@ -518,7 +518,6 @@ img{
 	text-decoration: none;
 	background: #22b455;
 	color: whitesmoke;
-	margin-bottom: -30px;
 	padding: 12px 24px;
 	border-radius: 25px;
 	font-size: 14px;
@@ -528,6 +527,9 @@ img{
 .error-button:hover{
 	background: #80ce87;
 	color: #020204;
+}
+.error-text{
+	margin-top: 20px;
 }
 /*--------------------------------------*/
 @media screen and (max-width: 800px){
