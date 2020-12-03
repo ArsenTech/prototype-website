@@ -489,8 +489,42 @@ img{
     opacity: 1;
     transform: scale(1);
 }
-/* error 404 */
-
+/* Error 404 */
+#error{
+	min-height: 100vh;
+	background: linear-gradient(to left, #204829, #020204);
+}
+.error-container{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: whitesmoke;
+}
+.error-number{
+	font-size: 160px;
+	margin: 0;
+	font-weight: 900;
+	letter-spacing: 20px;
+	background: linear-gradient(90deg, #22b455 30%, #80ce87 55%) center;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.error-button{
+	text-decoration: none;
+	background: #22b455;
+	color: whitesmoke;
+	padding: 12px 24px;
+	border-radius: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: 0.5s linear;
+}
+.error-button:hover{
+	background: #80ce87;
+	color: #020204;
+}
 /*--------------------------------------*/
 @media screen and (max-width: 800px){
     .menu-btn{
@@ -585,4 +619,10 @@ img{
     .info-button button{
 	margin: 0 auto;
     }    
+    .error-container{
+	width: 320px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(10%);
+    }
 }
