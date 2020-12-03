@@ -169,6 +169,9 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
+.info-button button:hover{
+    background-color: #22b455;
+}
 .info-text{
     text-align: justify;
 }
