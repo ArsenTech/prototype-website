@@ -529,7 +529,7 @@ img{
 	color: #020204;
 }
 .error-text{
-	margin-top: 25px;
+	margin-bottom: 20px;
 }
 /*--------------------------------------*/
 @media screen and (max-width: 800px){
