@@ -13,3 +13,8 @@ He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armeni
 <a href="https://www.reddit.com/user/ArsenTech" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-FF4500?style=for-the-badge&logo=reddit&logoColor=white"></a>
 <a href="https://codepen.io/ArsenJS" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-white?style=for-the-badge&logo=codepen&logoColor=black"></a>
 <img src="https://img.shields.io/badge/-ArsenTech%238160-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+
+---
+
+> [ArsenTech's Website](https://www.builtbybel.com) &nbsp;&middot;&nbsp;
+> GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;
