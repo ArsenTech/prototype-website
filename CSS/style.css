@@ -154,11 +154,12 @@ img{
     font-size: 25px;
     margin: 0 10px;
 }
-.yt, .git{
+.yt, .git, .rdt{
     transition: 0.5s linear;
 }
 .yt:hover{color: red;}
 .git:hover{color: black;}
+.rdt:hover{color: #ff4500;}
 .con-gallery{
     width: 500px;
     padding: 15px;
