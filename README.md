@@ -8,11 +8,11 @@ Arsen, also known online as ArsenTech (formerly known as Arsen Technologies) is 
 He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armenian Subtitles. He is Working on Programming, Video Editing.
 
 ## Follow Me:
-<a href="https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg" target="_blank"><img src="https://img.shields.io/badge/ArsenTech%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
-<a href="https://scratch.mit.edu/users/ArsenTech/" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-orange?style=for-the-badge&logo=scratch&logoColor=white"></a>
-<a href="https://www.reddit.com/user/ArsenTech" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-FF4500?style=for-the-badge&logo=reddit&logoColor=white"></a>
-<a href="https://codepen.io/ArsenJS" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-white?style=for-the-badge&logo=codepen&logoColor=black"></a>
-<img src="https://img.shields.io/badge/-ArsenTech%238160-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+<a href="https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg" target="_blank"><img src="https://img.shields.io/badge/ArsenTech%20-%231DD1A1.svg?&style=for-the-badge&logo=YouTube&logoColor=FF0000"/></a>
+<a href="https://scratch.mit.edu/users/ArsenTech/" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=scratch&logoColor=orange"></a>
+<a href="https://www.reddit.com/user/ArsenTech" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=reddit&logoColor=FF4500"></a>
+<a href="https://codepen.io/ArsenJS" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=codepen&logoColor=black"></a>
+<img src="https://img.shields.io/badge/-ArsenTech%238160-1DD1A1?style=for-the-badge&logo=discord&logoColor=7289DA" />
 
 ---
 
